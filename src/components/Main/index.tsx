@@ -1,6 +1,8 @@
-const Main = () => (
+import * as S from './styles'
+
+const Main = ({ title = 'Royalty' }) => (
   <main>
-    <h1>Royalty</h1>
+    <S.Heading>{title}</S.Heading>
   </main>
 )
 
